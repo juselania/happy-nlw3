@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* vai de uma borda a outra borda */
+}
+
+body{
+  height: 100vh;
+  color: white;
+  background: #D3E2d5;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body, input, textarea, button{
+ /*
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  font-family:  'Nunito', ; */
+
+  font: 400 18px/1 'Nunito', sans-serif; /*Essa propriedade substitui os anteriores */
+}
+
